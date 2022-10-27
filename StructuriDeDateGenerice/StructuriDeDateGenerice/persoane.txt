@@ -1,0 +1,3 @@
+mihai pop 20
+vlad alex 30
+george s 45
