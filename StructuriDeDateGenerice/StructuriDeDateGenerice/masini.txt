@@ -1,0 +1,7 @@
+audi 30 2018
+bmw 45 1999
+dacia 12 2007
+opel 39 2001
+ferrari 10 2022
+ford 21 1996
+bentley 70 2014

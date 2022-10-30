@@ -32,6 +32,12 @@
     <ClInclude Include="lista.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="functii.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlMasina.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="persoane.txt">

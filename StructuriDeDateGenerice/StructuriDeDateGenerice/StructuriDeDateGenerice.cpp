@@ -1,13 +1,10 @@
 
-#include "lista.h"
+#include "ControlMasina.h"
 
 int main()
 {
 
-	List<Persoana>persoana;
-
-	Node<Persoana>p;
-
+	sortare();
 
 
 }

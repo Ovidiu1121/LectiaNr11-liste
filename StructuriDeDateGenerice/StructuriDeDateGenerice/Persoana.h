@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+#include <string>
 
 
 struct Persoana {
@@ -42,6 +43,18 @@ public:
 
 	void setVarsta(int varsta) {
 		this->varsta = varsta;
+	}
+
+	string descriere() {
+
+		string text = "";
+
+		text += this->nume + " ";
+		text += this->prenume + " ";
+		text += to_string(this->varsta) + "\n";
+
+		return text;
+
 	}
 
 };

@@ -142,6 +142,8 @@
     <ClCompile Include="StructuriDeDateGenerice.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ControlMasina.h" />
+    <ClInclude Include="functii.h" />
     <ClInclude Include="lista.h" />
     <ClInclude Include="Masina.h" />
     <ClInclude Include="Node.h" />

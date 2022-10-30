@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
-
+#include <string>
+#include <fstream>
 
 struct Masina {
 
@@ -44,6 +45,18 @@ public:
 
 	void setVechime(int vechime) {
 		this->vechime = vechime;
+	}
+
+	string descriere() {
+
+		string text = "";
+
+		text += this->marca + " ";
+		text += to_string(this->pret) + " ";
+		text += to_string(this->vechime) + "\n";
+
+		return text;
+
 	}
 
 };

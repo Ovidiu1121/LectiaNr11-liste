@@ -1,4 +1,2 @@
 ﻿  StructuriDeDateGenerice.cpp
-C:\Data\c++\LectieNr11\StructuriDeDateGenerice\StructuriDeDateGenerice\StructuriDeDateGenerice.cpp(9,21): error C2664: 'void List<Persoana>::addStart(Persoana)': cannot convert argument 1 from 'int' to 'Persoana'
-C:\Data\c++\LectieNr11\StructuriDeDateGenerice\StructuriDeDateGenerice\StructuriDeDateGenerice.cpp(9,21): message : No constructor could take the source type, or constructor overload resolution was ambiguous
-C:\Data\c++\LectieNr11\StructuriDeDateGenerice\StructuriDeDateGenerice\lista.h(9,7): message : see declaration of 'List<Persoana>::addStart'
+  StructuriDeDateGenerice.vcxproj -> C:\Data\c++\LectieNr11\StructuriDeDateGenerice\x64\Debug\StructuriDeDateGenerice.exe
