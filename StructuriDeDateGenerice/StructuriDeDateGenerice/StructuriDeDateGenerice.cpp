@@ -1,10 +1,10 @@
 
-#include "ControlMasina.h"
+#include "functiiListaDubla.h"
 
 int main()
 {
 
-	sortare();
+	testDeleteByPosition();
 
 
 }

@@ -38,6 +38,24 @@
     <ClInclude Include="ControlMasina.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="stiva.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="functiiStiva.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="coada.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="functiiCoada.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="listaDubla.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="functiiListaDubla.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Text Include="persoane.txt">

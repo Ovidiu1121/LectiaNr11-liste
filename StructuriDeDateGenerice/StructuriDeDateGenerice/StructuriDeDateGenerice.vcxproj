@@ -142,12 +142,18 @@
     <ClCompile Include="StructuriDeDateGenerice.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="coada.h" />
     <ClInclude Include="ControlMasina.h" />
     <ClInclude Include="functii.h" />
+    <ClInclude Include="functiiCoada.h" />
+    <ClInclude Include="functiiListaDubla.h" />
+    <ClInclude Include="functiiStiva.h" />
     <ClInclude Include="lista.h" />
+    <ClInclude Include="listaDubla.h" />
     <ClInclude Include="Masina.h" />
     <ClInclude Include="Node.h" />
     <ClInclude Include="Persoana.h" />
+    <ClInclude Include="stiva.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="masini.txt" />
