@@ -3,12 +3,10 @@
 
 int main()
 {
-
 	ControlPersoana a;
 
-	a.sortareDupaVarsta();
-	a.afisare();
+	Persoana x=a.returnPersoanaByNume("ana");
 
-
+	cout << x.descriere();
 }
 

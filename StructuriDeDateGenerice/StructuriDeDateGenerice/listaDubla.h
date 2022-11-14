@@ -107,6 +107,11 @@ struct ListaDubla {
 
 		Node<U>* aux = head;
 
+		if (poz == 0) {
+			head = head->next;
+			return;
+		}
+
 		while (aux && ct != poz - 1) {
 			aux = aux->next;
 			ct++;

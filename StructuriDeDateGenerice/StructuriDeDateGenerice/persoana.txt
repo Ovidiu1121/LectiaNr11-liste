@@ -1,0 +1,3 @@
+mihai pop 2 parola1
+vlad alex 5 parola2
+ana b 3 parola4

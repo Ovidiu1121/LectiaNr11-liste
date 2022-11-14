@@ -155,6 +155,8 @@
     <ClInclude Include="Node.h" />
     <ClInclude Include="Persoana.h" />
     <ClInclude Include="stiva.h" />
+    <ClInclude Include="ViewAdmin.h" />
+    <ClInclude Include="ViewLogIn.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="masini.txt" />

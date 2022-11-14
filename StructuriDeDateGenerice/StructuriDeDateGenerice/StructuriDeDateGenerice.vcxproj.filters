@@ -25,6 +25,9 @@
     <Filter Include="Header Files\controlere">
       <UniqueIdentifier>{a08e91e0-e1f4-43c4-9bfd-aa971ae4c0a6}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\view">
+      <UniqueIdentifier>{33e64e97-20a4-4df9-8cb0-7d9b696d3497}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="StructuriDeDateGenerice.cpp">
@@ -70,6 +73,12 @@
     </ClInclude>
     <ClInclude Include="ControlPersoana.h">
       <Filter>Header Files\controlere</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewLogIn.h">
+      <Filter>Header Files\view</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewAdmin.h">
+      <Filter>Header Files\view</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
