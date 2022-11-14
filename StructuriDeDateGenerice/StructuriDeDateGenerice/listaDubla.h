@@ -114,6 +114,69 @@ struct ListaDubla {
 		aux->next = aux->next->next;
 	}
 
+	int size() {
+
+		int ct = 0;
+
+		if (head == NULL) {
+			return 0;
+		}
+
+		Node<U>* aux = head;
+
+		while (aux) {
+			aux = aux->next;
+			ct++;
+		}
+		return ct;
+	}
+
+	U get(int poz) {
+
+		int ct = 0;
+		int k = size();
+
+		Node<U>* aux = head;
+
+		if (head == NULL) {
+			return U();
+		}
+
+		if (poz > k) {
+			return U();
+		}
+
+		while (aux) {
+			if (ct == poz) {
+				return aux->data;
+			}
+			ct++;
+			aux = aux->next;
+		}
+		return U();
+	}
+
+	void set(int poz,U x) {
+
+		int k = size();
+		int ct = 0;
+
+		Node<U>* aux = head;
+
+		if (poz > k) {
+			return;
+		}
+
+		while (aux) {
+
+			if (ct == poz) {
+				aux->data = x;
+			}
+			aux = aux->next;
+			ct++;
+		}
+		
+	}
 
 };
 

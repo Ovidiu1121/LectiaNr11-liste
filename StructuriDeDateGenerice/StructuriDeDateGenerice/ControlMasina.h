@@ -1,16 +1,21 @@
 #include "lista.h"
 
-struct Lista {
+struct ControlMasina {
 
-	Node<Masina>* head = NULL;
-
+private:
 	List<Masina>m;
 
-	void citire(List<Masina>lst) {
+public:
+
+	ControlMasina() {
+
+		citire();
+	}
+
+	void citire() {
 
 		ifstream read("masini.txt");
 
-		Node<Masina>* aux = head;
 			
 		while (!read.eof()) {
 			string  marca;
@@ -22,7 +27,7 @@ struct Lista {
 			read >> vechime;
 
 			Masina x(marca, pret, vechime);
-			lst.addFinal(x);
+			m.addFinal(x);
 		}
 
 	}

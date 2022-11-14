@@ -1,3 +1,4 @@
-mihai pop 20
-vlad alex 30
-george s 45
+mihai pop 2
+vlad alex 5
+george s 4
+ana b 3

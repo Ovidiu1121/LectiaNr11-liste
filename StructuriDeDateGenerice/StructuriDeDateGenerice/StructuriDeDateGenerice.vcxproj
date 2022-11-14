@@ -144,6 +144,7 @@
   <ItemGroup>
     <ClInclude Include="coada.h" />
     <ClInclude Include="ControlMasina.h" />
+    <ClInclude Include="ControlPersoana.h" />
     <ClInclude Include="functii.h" />
     <ClInclude Include="functiiCoada.h" />
     <ClInclude Include="functiiListaDubla.h" />

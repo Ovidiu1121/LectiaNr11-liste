@@ -1,10 +1,13 @@
 
-#include "functiiListaDubla.h"
+#include "ControlPersoana.h"
 
 int main()
 {
 
-	testDeleteByPosition();
+	ControlPersoana a;
+
+	a.sortareDupaVarsta();
+	a.afisare();
 
 
 }

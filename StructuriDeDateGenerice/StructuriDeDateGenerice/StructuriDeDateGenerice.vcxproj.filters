@@ -13,6 +13,18 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\structuri">
+      <UniqueIdentifier>{e08179fb-1e59-4a0f-a9bd-d6f0051edbba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\modele">
+      <UniqueIdentifier>{9f87cc51-80f5-4e14-aea2-427466f3ccb0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\test">
+      <UniqueIdentifier>{3a2068be-2425-46c6-a194-643a9e5c203a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\controlere">
+      <UniqueIdentifier>{a08e91e0-e1f4-43c4-9bfd-aa971ae4c0a6}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="StructuriDeDateGenerice.cpp">
@@ -20,41 +32,44 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Masina.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Persoana.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\modele</Filter>
+    </ClInclude>
+    <ClInclude Include="Masina.h">
+      <Filter>Header Files\modele</Filter>
     </ClInclude>
     <ClInclude Include="Node.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\structuri</Filter>
     </ClInclude>
     <ClInclude Include="lista.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="functii.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="ControlMasina.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="stiva.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="functiiStiva.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\structuri</Filter>
     </ClInclude>
     <ClInclude Include="coada.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="functiiCoada.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\structuri</Filter>
     </ClInclude>
     <ClInclude Include="listaDubla.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\structuri</Filter>
+    </ClInclude>
+    <ClInclude Include="stiva.h">
+      <Filter>Header Files\structuri</Filter>
+    </ClInclude>
+    <ClInclude Include="functii.h">
+      <Filter>Header Files\test</Filter>
+    </ClInclude>
+    <ClInclude Include="functiiStiva.h">
+      <Filter>Header Files\test</Filter>
+    </ClInclude>
+    <ClInclude Include="functiiCoada.h">
+      <Filter>Header Files\test</Filter>
     </ClInclude>
     <ClInclude Include="functiiListaDubla.h">
-      <Filter>Header Files</Filter>
+      <Filter>Header Files\test</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlMasina.h">
+      <Filter>Header Files\controlere</Filter>
+    </ClInclude>
+    <ClInclude Include="ControlPersoana.h">
+      <Filter>Header Files\controlere</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

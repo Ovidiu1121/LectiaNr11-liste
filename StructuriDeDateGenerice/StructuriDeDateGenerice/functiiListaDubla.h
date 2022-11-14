@@ -142,11 +142,68 @@ void testDeleteByPosition() {
 
 }
 
+void testSize() {
+	ListaDubla<Masina>masina;
+
+	Masina a("audi", 23, 2020);
+	Masina b("bmw", 40, 2017);
+	Masina c("dacia", 22, 2008);
+	Masina d("ferarri", 31, 2019);
+
+	masina.addFinal(a);
+	masina.addFinal(b);
+	masina.addFinal(c);
+	masina.addFinal(d);
+	int k = masina.size();
+
+	cout << k;
 
 
+}
 
+void testGetByPosition() {
 
+	ListaDubla<Masina>masina;
 
+	Masina a("audi", 23, 2020);
+	Masina b("bmw", 40, 2017);
+	Masina c("dacia", 22, 2008);
+	Masina d("ferarri", 31, 2019);
+
+	masina.addFinal(a);
+	masina.addFinal(b);
+	masina.addFinal(c);
+	masina.addFinal(d);
+
+	Masina m = masina.get(3);
+
+	cout << m.descriere();
+
+}
+
+void testSetByPosition() {
+
+	ListaDubla<Masina>masina;
+
+	Masina a("audi", 23, 2020);
+	Masina b("bmw", 40, 2017);
+	Masina c("dacia", 22, 2008);
+	Masina d("ferarri", 31, 2019);
+
+	masina.addFinal(a);
+	masina.addFinal(b);
+	masina.addFinal(c);
+
+	masina.set(2, d);
+
+	Node<Masina>* it = masina.iterator();
+
+	while (it) {
+		cout << it->data.descriere() << endl;
+		it = it->next;
+	}
+
+}
 
 
 
